@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+*::after,
+*::after {
+    box-sizing: border-box;
+    transition: 1s;
+}
+.Doraemon{
+    position: relative;
+    margin-bottom:10px
+}
+
+.header .eye.left::before {
+    animation: zhuan1 2s infinite;
+}
+
+.header .eye.right::before {
+    animation: zhuan2 2s infinite;
+}
+
+@keyframes zhuan1 {
+    0% {
+        left: 15px;
+        top: 50%;
+    }
+
+    25% {
+        left: 15px;
+        top: 15%;
+    }
+
+    45% {
+        left: 20px;
+        top: 15%;
+    }
+
+    75% {
+        left: 15px;
+        top: 15%;
+    }
+
+    100% {
+        left: 15px;
+        top: 50%;
+    }
+
+}
+
+@keyframes zhuan2 {
+    0% {
+        right: 15px;
+        top: 50%;
+    }
+
+    25% {
+        right: 15px;
+        top: 15%;
+    }
+
+    45% {
+        right: 10px;
+        top: 15%;
+    }
+
+    75% {
+        right: 15px;
+        top: 15%;
+    }
+
+    100% {
+        right: 15px;
+        top: 50%;
+    }
+
+}
+
+#buttons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#buttons>button {
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: rgb(80, 177, 233);
+    width: 40px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#styleTag {
+    display: none;
+}
+
+.headerContent {
+    background-image: url(https://i.loli.net/2020/04/30/kLpUVFYmCMbAxdE.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 40vh;
+    background-position: center ;
+
+}
+
+#demo::-webkit-scrollbar {
+    display: none;
+}
+
+#html {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*# sourceMappingURL=/default.89cc48eb.css.map */
