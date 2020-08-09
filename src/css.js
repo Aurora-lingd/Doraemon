@@ -1,4 +1,5 @@
 const string = `
+/*tou*/
 .header{
     width: 324px;
     height: 304px;
@@ -223,7 +224,7 @@ const string = `
     bottom: 0;
 }
 
-
+/*shen*/
 .body{
     width: 224px;
     height: 168px;
@@ -292,6 +293,7 @@ const string = `
     border: 1px solid black;
     top:65px;
 }
+/*shou*/
 .hand{
     width: 100px;
     height: 100px;
@@ -349,6 +351,7 @@ const string = `
 .hand.left .arm::before{
     transform: rotate(-55deg) translateY(10px);
 }
+/*jiao*/
 .foot{
     width: 120px;
     height: 34px;
